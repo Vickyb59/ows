@@ -1,0 +1,66 @@
+.track-shipment-bg {
+    background: #e5e7e7;
+    min-height: 363px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.s-tracking-section-title h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #080808;
+}
+
+.plr-20{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.track-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px dotted #cccc;
+    border-bottom: 1px dotted #cccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.track-form input { margin-bottom: 0;}
+
+.track-example {
+    text-align: left;
+    padding: 15px 0 0 0;
+}
+
+.track-example label{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #080808;
+}
+
+@media (min-width: 1200px) {
+    .tracking-area{
+        width: 80%;
+    }
+}
+
+.tracking-details-area {
+    border-right: 1px dashed #ccc;
+}
+
+.error {
+    padding: 10px;
+    color: #a94442;
+    background: #f2dede;
+    text-align: center;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
