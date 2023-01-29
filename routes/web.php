@@ -23,6 +23,9 @@ Route::middleware('auth')->group(function(){
 Route::controller(FrontController::class)->group(function (){
     Route::get('/', 'Home')->name('home.page');
     Route::get('/about-us', 'About')->name('about.page');
+    Route::get('/service', 'Service')->name('service.page');
+    Route::get('/contact', 'Contact')->name('contact.page');
+    Route::get('/track/shipment', 'TrackShipment')->name('track.shipment.page');
 });
 
 Route::get('/dashboard', function () {

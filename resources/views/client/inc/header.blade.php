@@ -54,10 +54,10 @@
                                 <ul>
                                     <li @php echo ( $page_name == 'Home' || $page_parent == 'Home') ? 'class="active"' : ''; @endphp> <a href="{{ route('home.page') }}">Home</a></li>
                                     <li @php echo ( $page_name == 'About Us' || $page_parent == 'About Us') ? 'class="active"' : ''; @endphp><a href="{{ route('about.page') }}">Company</a></li>
-                                    <li @php echo ( $page_name == 'Track a Shipment' || $page_parent == 'Track a Shipment') ? 'class="active"' : ''; @endphp><a href="track-shipment">Tracking</a></li>
-                                    <li @php echo ( $page_name == 'Service' || $page_parent == 'Service') ? 'class="active"' : ''; @endphp><a href="service">Service</a></li>
+                                    <li @php echo ( $page_name == 'Track a Shipment' || $page_parent == 'Track a Shipment') ? 'class="active"' : ''; @endphp><a href="{{ route('track.shipment.page') }}">Tracking</a></li>
+                                    <li @php echo ( $page_name == 'Service' || $page_parent == 'Service') ? 'class="active"' : ''; @endphp><a href="{{ route('service.page') }}">Service</a></li>
                                     
-                                    <li @php echo ( $page_name == 'Contact Us' || $page_parent == 'Contact Us') ? 'class="active"' : ''; @endphp><a href="support">Contact</a></li>
+                                    <li @php echo ( $page_name == 'Contact Us' || $page_parent == 'Contact Us') ? 'class="active"' : ''; @endphp><a href="{{ route('contact.page') }}">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>

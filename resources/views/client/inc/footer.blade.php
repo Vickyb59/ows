@@ -5,7 +5,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="footer-widget mb-50">
                         <div class="footer-logo mb-35">
-                            <a href="{{ route('home.page') }}"><img src="{{ asset('front') }}/img/logo/w_logo.png" alt="img"></a>
+                            <a href="{{ route('home.page') }}"><img src="{{ asset('logo/white_logo.png') }}" alt="img"></a>
                         </div>
                         
                         <div class="footer-social">
@@ -26,7 +26,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="footer-widget mb-50">
                         <div class="fw-title mb-30">
-                            <h5><a href="track-shipment">TRACKING</a></h5>
+                            <h5><a href="{{ route('track.shipment.page') }}">TRACKING</a></h5>
                         </div>
                         <div class="fw-link">
                             
@@ -36,7 +36,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="footer-widget mb-50">
                         <div class="fw-title mb-30">
-                            <h5><a href="service">SERVICE</a></h5>
+                            <h5><a href="{{ route('service.page') }}">SERVICE</a></h5>
                         </div>
                         
                     </div>

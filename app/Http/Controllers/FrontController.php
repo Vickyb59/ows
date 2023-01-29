@@ -14,4 +14,16 @@ class FrontController extends Controller
     {
         return view('client.pages.about');
     }
+    public function Service()
+    {
+        return view('client.pages.service');
+    }
+    public function Contact()
+    {
+        return view('client.pages.support');
+    }
+    public function TrackShipment()
+    {
+        return view('client.pages.track-shipment');
+    }
 }
