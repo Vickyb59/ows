@@ -1,6 +1,6 @@
 @php
 
-$page_name = 'Track A Shipment';
+$page_name = 'Track a Shipment';
 $page_parent = '';
 $page_description = 'Manage your shipping online and quickly print labels, track packages, and find details about our services that fit your needs...';
 
